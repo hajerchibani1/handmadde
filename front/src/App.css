@@ -1,0 +1,204 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: #fff;
+  cursor: pointer;
+}
+option a {
+  color: #fff;
+  cursor: pointer;
+}
+/**********navigation**********/
+.box {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0718/9637/files/kooreloo_SS22_campaign-5_1512x.jpg?v=1648033016");
+  background-size: cover;
+}
+
+.navigation {
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first {
+  color: #fff;
+}
+.gray,
+.gray a {
+  background-color: #f0f0f0;
+  color: rgb(52, 52, 52);
+}
+.optional,
+.optional a {
+  color: rgb(57, 48, 48);
+  background-color: rgb(154, 155, 162);
+}
+.navigation .nav_left .link {
+  width: 90px;
+  font-family: "Mulish", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+.navigation .nav_left {
+  margin-left: 5%;
+}
+.navigation .nav_middle {
+  width: 260px;
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  align-items: center;
+  font-size: 11px;
+  font-family: "Mulish", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+.navigation .nav_middle select {
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  width: 73px;
+  color: white;
+  cursor: pointer;
+  font-size: 11px;
+  font-family: "Mulish", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.navigation .nav_middle select a {
+  cursor: pointer !important;
+}
+.navigation .nav_middle .noir {
+  color: black;
+}
+.navigation .nav_middle p {
+  margin-left: 6px;
+}
+.navigation .nav_rigth {
+  width: 110px;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.under-nav {
+  padding-top: 10px;
+  position: absolute;
+  flex-direction: column;
+  display: none;
+}
+.middle-item:hover .under-nav {
+  display: flex;
+}
+
+.para {
+  width: 50%;
+  margin: 50px auto;
+
+  align-items: center;
+}
+.para h3 {
+  width: 200px;
+  margin: 0 auto;
+  align-items: center;
+}
+.para p {
+  width: 300px;
+  margin: 0 auto;
+  align-items: center;
+}
+.bestSeller {
+  background-color: rgb(210, 207, 207);
+  width: 100%;
+  height: 500px;
+}
+.bestSeller_box {
+  width: 95%;
+  height: 450px;
+  display: flex;
+
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.bestSeller_box img {
+  width: 180px;
+  height: 223px;
+  object-fit: cover;
+}
+.carditem {
+  width: 70%;
+  height: 400px;
+  background-color: rgb(253, 251, 251);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0px 2px 36px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 2px 36px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 36px -6px rgba(116, 113, 113, 0.75);
+}
+.carditem img {
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.carditem .description {
+  width: 50%;
+  height: 250px;
+  font-size: 12px;
+  justify-content: center;
+  margin: auto 0;
+  background-color: aquamarine;
+  align-items: center;
+}
+.card_list {
+  display: flex;
+  justify-content: space-around;
+}
+.souhaite_card {
+  width: 60%;
+
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+.souhaite_card img {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+}
+.souhaite_card button {
+  background: #3300ad;
+  width: 100px;
+  height: 30px;
+  border: none;
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 1.3125rem;
+}
+.souhaite_card button > {
+  font-size: 0.5rem;
+  font-weight: lighter;
+}
+.souhaite_list {
+  margin-top: 50px;
+}
